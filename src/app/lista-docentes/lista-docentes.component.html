@@ -1,0 +1,33 @@
+<h2>Lista de Docentes</h2>
+<table class="table table-striped">
+<thead class="table-dark">
+    <tr>
+        <th>Clave</th>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Email</th>
+        <th>Telefono</th>
+        <th>Blog</th>
+        <th>Profesional</th>
+        <th>Escalaron</th>
+        <th>Idioma</th>
+        <th>Años de Experiencia</th>
+        <th>Area de Trabajo</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor= "let docente of docentes">
+        <td>{{docente.clave}}</td>
+        <td>{{docente.nombre}}</td>
+        <td>{{docente.apellidos}}</td>
+        <td>{{docente.email}}</td>
+        <td>{{docente.telefono}}</td>
+        <td>{{docente.blog}}</td>
+        <td>{{docente.profesional}}</td>
+        <td>{{docente.escalaron}}</td>
+        <td>{{docente.idioma}}</td>
+        <td>{{docente.anosExperiencia}}</td>
+        <td>{{docente.areaTrabajo}}</td>
+    </tr>
+</tbody>
+</table>
